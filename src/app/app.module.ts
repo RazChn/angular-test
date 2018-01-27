@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent }  from './app.component';
 import { UserComponent }  from './component/user.component';
-
+import { AboutComponent } from './component/about.component';
 @NgModule({
   imports:      [ BrowserModule, FormsModule,HttpModule ],
   declarations: [ AppComponent, UserComponent ],
